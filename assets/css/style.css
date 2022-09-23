@@ -9172,7 +9172,7 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     overflow: hidden;
-    background-color: #020822;
+    background-color: #1f0451;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -9288,19 +9288,51 @@ html {
     opacity: 1;
 }
 
+
+.bubble {
+    opacity: .7;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.bubble .img {
+    position: absolute;
+    opacity: .7;
+    right: 0px;
+    bottom: 0px;
+    width: 250px;
+    height: 250px;
+    z-index: -1;
+}
+
+.bubble2 {
+    opacity: .2;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.bubble2 .img {
+    position: absolute;
+    bottom: 0px;
+    right: 50;
+    width: 450px;
+    height: 450px;
+}
+
+
+
+
 .header {
     position: sticky;
     top: 0px;
-    background-color: #0F101D;
     width: 100%;
     padding: 0px 0px;
     z-index: 100;
-    background: #030B1C;
-    box-shadow: 0px 28px 95px -132px rgba(0, 60, 207, 0.1), -80px -101px 147px -68px rgba(255, 28, 137, 0.1), 0px 109px 175px -30px rgba(183, 0, 206, 0.1);
 }
 
 .header .header-top {
-    background: linear-gradient(70.91deg, #340862 0%, #0D2076 100%);
     padding: 7px 10px;
     display: flex;
     justify-content: center;
@@ -9400,12 +9432,12 @@ html {
 
 .hero-banner .bg {
     position: absolute;
-    opacity: .3;
+    opacity: .7;
     right: 0px;
     bottom: 0px;
-    top: 0px;
-    width: 1920px;
-    height: 670px;
+    top: -100px;
+    width: 1520px;
+    height: 600px;
     z-index: -1;
 }
 
@@ -9425,6 +9457,8 @@ html {
 
 .hero-banner .hero-img img {
     width: 100%;
+    height: 100%;
+    top: 0%;
 }
 
 .hero-banner .hero-text {
@@ -9494,7 +9528,7 @@ html {
     left: 0px;
     border-radius: 7px;
     z-index: -1;
-    background: #0F101D;
+    background: #1d0551;
     position: absolute;
 }
 
@@ -9893,7 +9927,7 @@ html {
 
 .section-partners .btn-more {
     font-size: 24px;
-    background: linear-gradient(70.91deg, #000428 0%, #004E92 100%);
+    background: linear-gradient(70.91deg, #1d0551 0%, #430140 100%);
     border-radius: 10px;
     color: #fff;
     border: 0px;
@@ -10018,7 +10052,7 @@ html {
     }
     .header .menus-box {
         position: fixed;
-        background-color: #020822;
+        background-color: #1d0551;
         z-index: 100;
         top: 0px;
         bottom: 0px;
