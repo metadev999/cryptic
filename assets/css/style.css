@@ -9555,7 +9555,7 @@ body .header {
 }
 
 .desc {
-    color: #9CA3AF;
+    color: #ffffff;
 }
 
 .section {
@@ -9567,7 +9567,7 @@ body .header {
 
 .section-title {
     font-size: 48px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     position: relative;
     text-align: center;
@@ -9607,7 +9607,7 @@ body .header {
 .footer .list-social a {
     display: inline-block;
     padding: 5px 10px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 
@@ -9640,11 +9640,11 @@ body .header {
 
 .footer .box-menus a {
     display: block;
-    color: #9CA3AF;
+    color: #ffffff;
 }
 
 .copyright {
-    background-color: #1F2937;
+    background-color: #ffffff;
     font-size: 14px;
     text-align: center;
     padding: 7px 10px;
