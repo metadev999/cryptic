@@ -9191,7 +9191,7 @@ html {
 }
 
 .overlay-common {
-    position: fixed;
+    position: absolute;
     top: 0px;
     bottom: 0px;
     right: 0px;
@@ -9199,6 +9199,7 @@ html {
     z-index: 99;
     cursor: pointer;
     display: none;
+
 }
 
 .overlay-common.show {
@@ -9321,29 +9322,16 @@ html {
     height: 450px;
 }
 
-
-
-
 .header {
-    position: sticky;
-    top: 0px;
+    position: relative;
+    top: 0;
     width: 100%;
-    padding: 0px 0px;
+    padding: 14px 15px;
     z-index: 100;
 }
 
-.header .header-top {
-    padding: 7px 10px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 20px;
-    row-gap: 20px;
-    font-size: 14px;
-}
-
-.header .header-top .value {
-    color: #00FF19;
+body .header {
+    position: relative !important; 
 }
 
 .header .container {
