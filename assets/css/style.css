@@ -9326,6 +9326,22 @@ html {
 
 
 
+/* Container holding the image and the text */
+.container .bubble3 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  /* Centered text */
+  .centered .bubble3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 
 
 
@@ -9338,19 +9354,17 @@ html {
     padding: 14px 15px;
     z-index: 100;
 }
-
-.hero-banner .bg {
-    background: #000 url(/assets/images/background1.jpg) no-repeat center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:100%;
+.hero-banner section .section .section-smart {
+    background: url(/assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body .header {
     position: relative !important; 
+}
+body .hero-banner .bg {
+    opacity: .5;
 }
 
 .header .container {
