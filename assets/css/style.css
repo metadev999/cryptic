@@ -9354,7 +9354,7 @@ html {
     padding: 14px 15px;
     z-index: 100;
 }
-.hero-banner section.section .section-smart {
+.hero-banner section.section.section-smart {
     background: url(/assets/images/logo.png);
     background-repeat: no-repeat;
     background-position: center;
