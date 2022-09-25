@@ -393,11 +393,11 @@
                 $(this).toggleClass('show');
             });
 
-            $('.header a').click(function(e) {
+            $('.header .menus a').click(function(e) {
                 e.preventDefault();
                 var target = $($(this).attr("href"));
                 if (target.length) {
-                    $(".header a").parent().removeClass("active");
+                    $(".header .menus a").parent().removeClass("active");
                     $(this).parent().addClass("active");
                     var top = target.offset().top - 100;
                     $('html,body').animate({
